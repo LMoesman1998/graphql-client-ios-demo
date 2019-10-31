@@ -1,0 +1,36 @@
+# this is an auto generated file. This will be overwritten
+query ListPersons {
+  listPersons {
+    id
+    firstName
+    lastName
+    age
+  }
+}
+query GetPerson($id: ID!) {
+  getPerson(id: $id) {
+    id
+    firstName
+    lastName
+    age
+  }
+}
+query Hello {
+  hello
+}
+mutation AddPerson($firstName: String!, $lastName: String!, $age: Int) {
+  addPerson(firstName: $firstName, lastName: $lastName, age: $age) {
+    id
+    firstName
+    lastName
+    age
+  }
+}
+mutation DeletePerson($id: ID!) {
+  deletePerson(id: $id) {
+    id
+    firstName
+    lastName
+    age
+  }
+}

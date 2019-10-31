@@ -1,0 +1,22 @@
+PODS:
+  - Apollo (0.9.4):
+    - Apollo/Core (= 0.9.4)
+  - Apollo/Core (0.9.4)
+  - SwiftLint (0.28.0)
+
+DEPENDENCIES:
+  - Apollo
+  - SwiftLint (= 0.28.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Apollo: 450856adbdebcdf28c3c671f81732ac3f9944065
+  SwiftLint: 088cfacb75b45970017e62b7524d506776d60148
+
+PODFILE CHECKSUM: 5bf26f08819e5d4d1273873da28595e00ee03eea
+
+COCOAPODS: 1.5.3

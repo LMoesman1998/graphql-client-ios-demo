@@ -1,0 +1,10 @@
+disabled_rules:
+  - trailing_whitespace
+excluded:
+  - Pods
+  - graphql-client-demo/API.swift
+  - graphql-client-demoTests
+  - graphql-client-demoUITests
+identifier_name:
+  min_length: 2
+line_length: 130

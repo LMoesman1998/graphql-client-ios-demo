@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D4771719DE85A541A040C13EDA1EB7 /* Pods-graphql-client-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B223DAC8CD86F7CC8C26DF96A21547F7 /* Pods-graphql-client-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DCE228D66ECA279212465E7511E9431 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588D64288321D4B8251E576804CAF7B /* Collections.swift */; };
+		102A91FAAADC6F29DA40FC6C99E59693 /* NetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE4C71FC6CA660B39D06C2130B0CBB4 /* NetworkTransport.swift */; };
+		16FA4F9DEAADE8D889E4499A26B8308B /* Pods-graphql-client-demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB6B6F6B276DD94EC3E0257954C2C05 /* Pods-graphql-client-demoTests-dummy.m */; };
+		17AA985FDEE1C5CA7FDFD531A0750E2B /* GraphQLSelectionSetMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D372895622D867A81A0C04B12BFE2E5 /* GraphQLSelectionSetMapper.swift */; };
+		1B2AC3FEBB2421EF31C30FD48CF5AF9D /* HTTPNetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B907A611CF60D934597E5C64DBED9 /* HTTPNetworkTransport.swift */; };
+		1B4BA5EB745DAE064A4ED02B91B69A02 /* JSONSerializationFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F94923725E9AA617765E092B4A8D47 /* JSONSerializationFormat.swift */; };
+		2015497EAB96615527E13752D95CB57C /* Apollo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 683504D454D285866D01149DC27481AE /* Apollo-dummy.m */; };
+		20263783BC313615A55C4C70B42C90D8 /* GraphQLSelectionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052AE3E198C9B7F8B2013532D33D98A /* GraphQLSelectionSet.swift */; };
+		2185829C76A6BA9FB2A70A30F48A441A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2B40625081F8719EC7A5B8FEC15AA748 /* Pods-graphql-client-demoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5730CBDB2EAC8B8D7BBEB2C43109A525 /* Pods-graphql-client-demoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F691F253927A030206F80149F23525 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A5D555DB5B1A2B513FC18B6084B697 /* Record.swift */; };
+		49F571AFEF2123EEE11895942AE6B65B /* Pods-graphql-client-demoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D667D37BB00521480024B8C35666F1C /* Pods-graphql-client-demoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5518314ACDE877C5B4279297A6DB87DC /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458E1CB5AE1363BE8B37938A8D85B6FE /* DataLoader.swift */; };
+		57CE96F18127DECE004EE0E540C9564C /* GraphQLExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45763F4E8AF3075D31B6A250937BC902 /* GraphQLExecutor.swift */; };
+		5942A9A2695D26A2AE44031D089D7AC0 /* InMemoryNormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE92B366C428770E4A6F511449241A7 /* InMemoryNormalizedCache.swift */; };
+		647CE2B9260E1FCC521B2F7A40E63606 /* check-and-run-apollo-codegen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 325BEEEECB9E017435A1F3DF15186427 /* check-and-run-apollo-codegen.sh */; };
+		6C47C898CB335BC1892F76DE81F0C714 /* ApolloClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390A70928EB638EC926C01D9BC0F05B6 /* ApolloClient.swift */; };
+		6E20F6C0E19A17F4201104D4B1DF20FA /* GraphQLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE375580DA2070B0CC8D5BC2BC9D04D /* GraphQLResponse.swift */; };
+		7087DEAAF16C46C156762A5E7B4E990E /* GraphQLDependencyTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FABA220B90EABDCEA6A27085DEDB0B /* GraphQLDependencyTracker.swift */; };
+		76F169CDD7C5048CF901C6894091FD83 /* GraphQLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB422D93E5E749AE2F561AD86DEF41 /* GraphQLError.swift */; };
+		7F98AE7AC8C2C580BE10AE6381A99FF0 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647B74664F2FE19FC1FE97711C7FF7AC /* AsynchronousOperation.swift */; };
+		8264B719753BBDC4D89BA60E0460C830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		83945EFF960DD7F3F4C175C12B5D087F /* GraphQLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FD3802C750DCF7A1A99EC700367E1 /* GraphQLResult.swift */; };
+		842B7BA4DDBC42ACAF98873DDFA89704 /* Locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F682C749BBB3AC98E8ACE58FEB7922 /* Locking.swift */; };
+		8789F54BEDB989D49F5933BA8FBAF1ED /* NormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7615D97E3419405DC88E144FCC99D7 /* NormalizedCache.swift */; };
+		99C6F1A3C2C396A6DA3793B520BEDD2E /* ApolloStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C63CFD074B28954A7DF2C9F1222DE6A /* ApolloStore.swift */; };
+		AC66F689BBA684C0929D9D02079E53A4 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398A3D35AFF2812B1B60EE4346A67A6 /* Promise.swift */; };
+		ACC87673AEECFDBBADE4D074D178E68B /* GraphQLResultAccumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48AE964BC28523E0DA6AA0A65855F5 /* GraphQLResultAccumulator.swift */; };
+		AF46CB36B27EABF6E8B6480799F20346 /* GraphQLResponseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610365EB5B73B32C14EC131765459054 /* GraphQLResponseGenerator.swift */; };
+		B09D457F10E614F572D39B438B2FB1C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B2861560435F442CB523020A6AD63922 /* Pods-graphql-client-demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D5860F8AA7B207FE928B807EEF0298 /* Pods-graphql-client-demoUITests-dummy.m */; };
+		B7380A90C01A9BC18A2BF90F39EE0457 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374941E325982CE963E703BA99ABF36 /* JSON.swift */; };
+		BABAE4DFC8CF4724086B7315BCDF2D7D /* GraphQLInputValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EB0E20C45AC68DA9A201205E5BC1EA /* GraphQLInputValue.swift */; };
+		BB55A205DAD63C05A9F4FEFFF0A553C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BD7737D70EE16A0169251F84B6C7F491 /* GraphQLQueryWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A713D6F08444BFAB05555161A10C688 /* GraphQLQueryWatcher.swift */; };
+		CA78F0A1BE2CB88B2E1AF10A5D8526D9 /* GraphQLOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF2032940D09F2ABD96182BEB78D328 /* GraphQLOperation.swift */; };
+		D564C7401DD18D31DE6D66035CEC2260 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA88A237549837A6073D0D367E3F0498 /* Result.swift */; };
+		D79B88FA15AC9F21295E67E3AEB5BC3B /* GraphQLResultNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444FE980517326064938D335C438C738 /* GraphQLResultNormalizer.swift */; };
+		DE6A8DA2837AD31BE1722182B243A164 /* check-and-run-apollo-cli.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5EBD5688551A504A237B746E21D4898D /* check-and-run-apollo-cli.sh */; };
+		E7945E7D6CF59C48F68296A90A38BC7C /* Apollo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3023B39355B23946FC876F60AE4C474 /* Apollo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94BB0B983D1064A50720A9B817D2689 /* JSONStandardTypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B587A75AE46ED36FC4A4097CC2B6998 /* JSONStandardTypeConversions.swift */; };
+		F09AC7AC05DEC3A5CB304000C6CEB005 /* Pods-graphql-client-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D2FD7B340A9FEF22A04ECF8EAC4060 /* Pods-graphql-client-demo-dummy.m */; };
+		F34D8D98C4B26D6F32461871F7A85D52 /* RecordSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E05D9AFCF7267AB919FDE25E605D /* RecordSet.swift */; };
+		FC7E998F35F8896283904A0E5E18553C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16608730132755FF191552E69EE40 /* Utilities.swift */; };
+		FEE654610692510CDCB9925E695B864E /* ResultOrPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785717B769B0AFF530F8A50B8208CAF /* ResultOrPromise.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BF073ACD4916C6E71D2A378D296303B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA4C37045222FB51D9AEFE1E452005F;
+			remoteInfo = "Pods-graphql-client-demo";
+		};
+		BDA78516F274093C0A8CB34F8F2AF4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA4C37045222FB51D9AEFE1E452005F;
+			remoteInfo = "Pods-graphql-client-demo";
+		};
+		C35FF1D6B82C82870C5E4AB2FFF6C555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DFC7B7A0E0F5FCEF1D11EAB25E2323;
+			remoteInfo = Apollo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EB0E20C45AC68DA9A201205E5BC1EA /* GraphQLInputValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLInputValue.swift; path = Sources/Apollo/GraphQLInputValue.swift; sourceTree = "<group>"; };
+		06FABA220B90EABDCEA6A27085DEDB0B /* GraphQLDependencyTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLDependencyTracker.swift; path = Sources/Apollo/GraphQLDependencyTracker.swift; sourceTree = "<group>"; };
+		0B77F2B71F9CC6842551471CAB204773 /* Pods-graphql-client-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-graphql-client-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D372895622D867A81A0C04B12BFE2E5 /* GraphQLSelectionSetMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLSelectionSetMapper.swift; path = Sources/Apollo/GraphQLSelectionSetMapper.swift; sourceTree = "<group>"; };
+		1546E05D9AFCF7267AB919FDE25E605D /* RecordSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordSet.swift; path = Sources/Apollo/RecordSet.swift; sourceTree = "<group>"; };
+		17D72A7271AF98AA8FA6E79DC8FF4A06 /* Apollo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apollo.xcconfig; sourceTree = "<group>"; };
+		1FE375580DA2070B0CC8D5BC2BC9D04D /* GraphQLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLResponse.swift; path = Sources/Apollo/GraphQLResponse.swift; sourceTree = "<group>"; };
+		2194B21E84C62079E129DA2CE3E32A5F /* Pods-graphql-client-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-graphql-client-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2588D64288321D4B8251E576804CAF7B /* Collections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collections.swift; path = Sources/Apollo/Collections.swift; sourceTree = "<group>"; };
+		2D667D37BB00521480024B8C35666F1C /* Pods-graphql-client-demoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-graphql-client-demoUITests-umbrella.h"; sourceTree = "<group>"; };
+		2EFF1A2C4D1C7C59288C3855DBAD64DB /* Pods-graphql-client-demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-graphql-client-demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3052AE3E198C9B7F8B2013532D33D98A /* GraphQLSelectionSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLSelectionSet.swift; path = Sources/Apollo/GraphQLSelectionSet.swift; sourceTree = "<group>"; };
+		325BEEEECB9E017435A1F3DF15186427 /* check-and-run-apollo-codegen.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "check-and-run-apollo-codegen.sh"; path = "scripts/check-and-run-apollo-codegen.sh"; sourceTree = "<group>"; };
+		349E65D6CD7C59453348C261D6A9591F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390A70928EB638EC926C01D9BC0F05B6 /* ApolloClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApolloClient.swift; path = Sources/Apollo/ApolloClient.swift; sourceTree = "<group>"; };
+		391DEC02A3F746739DF1678C4D915C9A /* Pods-graphql-client-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-graphql-client-demo.release.xcconfig"; sourceTree = "<group>"; };
+		444FE980517326064938D335C438C738 /* GraphQLResultNormalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLResultNormalizer.swift; path = Sources/Apollo/GraphQLResultNormalizer.swift; sourceTree = "<group>"; };
+		45763F4E8AF3075D31B6A250937BC902 /* GraphQLExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLExecutor.swift; path = Sources/Apollo/GraphQLExecutor.swift; sourceTree = "<group>"; };
+		458E1CB5AE1363BE8B37938A8D85B6FE /* DataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataLoader.swift; path = Sources/Apollo/DataLoader.swift; sourceTree = "<group>"; };
+		49E61CD03591460450CE70D542CC1617 /* Pods-graphql-client-demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-graphql-client-demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E6BCC6CB2688296E8BEA088D3495FD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DB422D93E5E749AE2F561AD86DEF41 /* GraphQLError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLError.swift; path = Sources/Apollo/GraphQLError.swift; sourceTree = "<group>"; };
+		5730CBDB2EAC8B8D7BBEB2C43109A525 /* Pods-graphql-client-demoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-graphql-client-demoTests-umbrella.h"; sourceTree = "<group>"; };
+		59F94923725E9AA617765E092B4A8D47 /* JSONSerializationFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializationFormat.swift; path = Sources/Apollo/JSONSerializationFormat.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EBD5688551A504A237B746E21D4898D /* check-and-run-apollo-cli.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "check-and-run-apollo-cli.sh"; path = "scripts/check-and-run-apollo-cli.sh"; sourceTree = "<group>"; };
+		5FD076CA4FD81CC6D99956580EFC3A77 /* Pods-graphql-client-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-graphql-client-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		610365EB5B73B32C14EC131765459054 /* GraphQLResponseGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLResponseGenerator.swift; path = Sources/Apollo/GraphQLResponseGenerator.swift; sourceTree = "<group>"; };
+		647B74664F2FE19FC1FE97711C7FF7AC /* AsynchronousOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsynchronousOperation.swift; path = Sources/Apollo/AsynchronousOperation.swift; sourceTree = "<group>"; };
+		668C2A3EEEEA952FBA17FB60C6D07BA6 /* Pods-graphql-client-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-graphql-client-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6785717B769B0AFF530F8A50B8208CAF /* ResultOrPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultOrPromise.swift; path = Sources/Apollo/ResultOrPromise.swift; sourceTree = "<group>"; };
+		67CA0293EA7CB16E19465EB9A3AF7B34 /* Pods-graphql-client-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-graphql-client-demo-frameworks.sh"; sourceTree = "<group>"; };
+		67D5860F8AA7B207FE928B807EEF0298 /* Pods-graphql-client-demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-graphql-client-demoUITests-dummy.m"; sourceTree = "<group>"; };
+		683504D454D285866D01149DC27481AE /* Apollo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Apollo-dummy.m"; sourceTree = "<group>"; };
+		68EB6A7E6662EB4342D76735E9020DA0 /* Pods_graphql_client_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_graphql_client_demoUITests.framework; path = "Pods-graphql-client-demoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C220C4B8B79901D5C220F27C53E19DA /* Pods-graphql-client-demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-graphql-client-demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		721E4EAE369EB0A1AFA40A52F43151B0 /* Pods-graphql-client-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-graphql-client-demo-resources.sh"; sourceTree = "<group>"; };
+		80ED971B38FFEBB3D945B8EE773FF638 /* Pods-graphql-client-demoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-graphql-client-demoUITests.modulemap"; sourceTree = "<group>"; };
+		8A713D6F08444BFAB05555161A10C688 /* GraphQLQueryWatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLQueryWatcher.swift; path = Sources/Apollo/GraphQLQueryWatcher.swift; sourceTree = "<group>"; };
+		8B587A75AE46ED36FC4A4097CC2B6998 /* JSONStandardTypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONStandardTypeConversions.swift; path = Sources/Apollo/JSONStandardTypeConversions.swift; sourceTree = "<group>"; };
+		8C63CFD074B28954A7DF2C9F1222DE6A /* ApolloStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApolloStore.swift; path = Sources/Apollo/ApolloStore.swift; sourceTree = "<group>"; };
+		8CC3D13505525D2318946BC250734FBF /* Pods_graphql_client_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_graphql_client_demoTests.framework; path = "Pods-graphql-client-demoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE0904767524C85D2E83FD06577C1CC /* Pods-graphql-client-demoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-graphql-client-demoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8FF257B6D80501412C8049A6399FD45E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9374941E325982CE963E703BA99ABF36 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/Apollo/JSON.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9438ED688A8E914C04DA0A9260C02029 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EF5BB8D6386ACF9CA93B6C4595C402 /* Pods_graphql_client_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_graphql_client_demo.framework; path = "Pods-graphql-client-demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D2FD7B340A9FEF22A04ECF8EAC4060 /* Pods-graphql-client-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-graphql-client-demo-dummy.m"; sourceTree = "<group>"; };
+		A398A3D35AFF2812B1B60EE4346A67A6 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Apollo/Promise.swift; sourceTree = "<group>"; };
+		A9F08CB2B4BBF392659C4EBF1B6ED0C7 /* Pods-graphql-client-demoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-graphql-client-demoTests-resources.sh"; sourceTree = "<group>"; };
+		AF15AAF18A0088C4BD1724E0F0A88CD4 /* Pods-graphql-client-demoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-graphql-client-demoTests-frameworks.sh"; sourceTree = "<group>"; };
+		B0C16608730132755FF191552E69EE40 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = Sources/Apollo/Utilities.swift; sourceTree = "<group>"; };
+		B223DAC8CD86F7CC8C26DF96A21547F7 /* Pods-graphql-client-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-graphql-client-demo-umbrella.h"; sourceTree = "<group>"; };
+		B2F682C749BBB3AC98E8ACE58FEB7922 /* Locking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locking.swift; path = Sources/Apollo/Locking.swift; sourceTree = "<group>"; };
+		B60B93252EA3BB0B9D43B1264CEB6B25 /* Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Apollo.framework; path = Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB48AE964BC28523E0DA6AA0A65855F5 /* GraphQLResultAccumulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLResultAccumulator.swift; path = Sources/Apollo/GraphQLResultAccumulator.swift; sourceTree = "<group>"; };
+		BBF2032940D09F2ABD96182BEB78D328 /* GraphQLOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLOperation.swift; path = Sources/Apollo/GraphQLOperation.swift; sourceTree = "<group>"; };
+		CC22D16508698A078079A6AFFDB15279 /* Pods-graphql-client-demoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-graphql-client-demoTests.modulemap"; sourceTree = "<group>"; };
+		CC7615D97E3419405DC88E144FCC99D7 /* NormalizedCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalizedCache.swift; path = Sources/Apollo/NormalizedCache.swift; sourceTree = "<group>"; };
+		D4B8701527B5BCA41CD35A144C02DEB3 /* Pods-graphql-client-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-graphql-client-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9A5D555DB5B1A2B513FC18B6084B697 /* Record.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Record.swift; path = Sources/Apollo/Record.swift; sourceTree = "<group>"; };
+		DA88A237549837A6073D0D367E3F0498 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Apollo/Result.swift; sourceTree = "<group>"; };
+		E257990ABE5C23201AE57C026F2F9F4B /* Apollo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apollo-prefix.pch"; sourceTree = "<group>"; };
+		E3023B39355B23946FC876F60AE4C474 /* Apollo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apollo-umbrella.h"; sourceTree = "<group>"; };
+		E45B459474B82F68AE18C97CB963F41B /* Pods-graphql-client-demoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-graphql-client-demoUITests-resources.sh"; sourceTree = "<group>"; };
+		F26D3F2C484E086C309EE3FAAE47E903 /* Pods-graphql-client-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-graphql-client-demo.modulemap"; sourceTree = "<group>"; };
+		F2A7CE3FDB2D45DEEC298B5BD26C2183 /* Apollo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Apollo.modulemap; sourceTree = "<group>"; };
+		F2B5A160A1BE458DAF14F2ED61953931 /* Pods-graphql-client-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-graphql-client-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		F4E80EECB64DF544DB600311A9DBCE70 /* Pods-graphql-client-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-graphql-client-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F73B907A611CF60D934597E5C64DBED9 /* HTTPNetworkTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPNetworkTransport.swift; path = Sources/Apollo/HTTPNetworkTransport.swift; sourceTree = "<group>"; };
+		F805C598739B09A3EE7E8615BB1F9F62 /* Pods-graphql-client-demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-graphql-client-demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB8FD3802C750DCF7A1A99EC700367E1 /* GraphQLResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLResult.swift; path = Sources/Apollo/GraphQLResult.swift; sourceTree = "<group>"; };
+		FBE4C71FC6CA660B39D06C2130B0CBB4 /* NetworkTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkTransport.swift; path = Sources/Apollo/NetworkTransport.swift; sourceTree = "<group>"; };
+		FEE92B366C428770E4A6F511449241A7 /* InMemoryNormalizedCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InMemoryNormalizedCache.swift; path = Sources/Apollo/InMemoryNormalizedCache.swift; sourceTree = "<group>"; };
+		FFB6B6F6B276DD94EC3E0257954C2C05 /* Pods-graphql-client-demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-graphql-client-demoTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362C0114306C73D1452FED6C0BBE6806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB55A205DAD63C05A9F4FEFFF0A553C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB2520A646C71906E698E78713DE72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2185829C76A6BA9FB2A70A30F48A441A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167CA0D7F3D26D549D85DBAC9D62449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09D457F10E614F572D39B438B2FB1C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EED8811F897F1C5F2D324E3ED06CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8264B719753BBDC4D89BA60E0460C830 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108D44FE03747FFD1DFC87DDD369AD85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8230AD463F9B908844376F7249E2240 /* Apollo */,
+				B92935CA31869E507DC12387C50F6E70 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F0BC7654996A1DD27A68F87CE797DA8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				390A70928EB638EC926C01D9BC0F05B6 /* ApolloClient.swift */,
+				8C63CFD074B28954A7DF2C9F1222DE6A /* ApolloStore.swift */,
+				647B74664F2FE19FC1FE97711C7FF7AC /* AsynchronousOperation.swift */,
+				2588D64288321D4B8251E576804CAF7B /* Collections.swift */,
+				458E1CB5AE1363BE8B37938A8D85B6FE /* DataLoader.swift */,
+				06FABA220B90EABDCEA6A27085DEDB0B /* GraphQLDependencyTracker.swift */,
+				51DB422D93E5E749AE2F561AD86DEF41 /* GraphQLError.swift */,
+				45763F4E8AF3075D31B6A250937BC902 /* GraphQLExecutor.swift */,
+				05EB0E20C45AC68DA9A201205E5BC1EA /* GraphQLInputValue.swift */,
+				BBF2032940D09F2ABD96182BEB78D328 /* GraphQLOperation.swift */,
+				8A713D6F08444BFAB05555161A10C688 /* GraphQLQueryWatcher.swift */,
+				1FE375580DA2070B0CC8D5BC2BC9D04D /* GraphQLResponse.swift */,
+				610365EB5B73B32C14EC131765459054 /* GraphQLResponseGenerator.swift */,
+				FB8FD3802C750DCF7A1A99EC700367E1 /* GraphQLResult.swift */,
+				BB48AE964BC28523E0DA6AA0A65855F5 /* GraphQLResultAccumulator.swift */,
+				444FE980517326064938D335C438C738 /* GraphQLResultNormalizer.swift */,
+				3052AE3E198C9B7F8B2013532D33D98A /* GraphQLSelectionSet.swift */,
+				0D372895622D867A81A0C04B12BFE2E5 /* GraphQLSelectionSetMapper.swift */,
+				F73B907A611CF60D934597E5C64DBED9 /* HTTPNetworkTransport.swift */,
+				FEE92B366C428770E4A6F511449241A7 /* InMemoryNormalizedCache.swift */,
+				9374941E325982CE963E703BA99ABF36 /* JSON.swift */,
+				59F94923725E9AA617765E092B4A8D47 /* JSONSerializationFormat.swift */,
+				8B587A75AE46ED36FC4A4097CC2B6998 /* JSONStandardTypeConversions.swift */,
+				B2F682C749BBB3AC98E8ACE58FEB7922 /* Locking.swift */,
+				FBE4C71FC6CA660B39D06C2130B0CBB4 /* NetworkTransport.swift */,
+				CC7615D97E3419405DC88E144FCC99D7 /* NormalizedCache.swift */,
+				A398A3D35AFF2812B1B60EE4346A67A6 /* Promise.swift */,
+				D9A5D555DB5B1A2B513FC18B6084B697 /* Record.swift */,
+				1546E05D9AFCF7267AB919FDE25E605D /* RecordSet.swift */,
+				DA88A237549837A6073D0D367E3F0498 /* Result.swift */,
+				6785717B769B0AFF530F8A50B8208CAF /* ResultOrPromise.swift */,
+				B0C16608730132755FF191552E69EE40 /* Utilities.swift */,
+				4AE7DD114F8F76B59D85CAF812C06A1F /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3A333AA1F6EFA25F00F8F21708A914B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47BB6EB8782BB927F0AE0CCBA9357823 /* Pods-graphql-client-demo */,
+				7D4E11FFE3C8B6BA9A363F062718ACD0 /* Pods-graphql-client-demoTests */,
+				402110AD42151BC645C09F079F1C9250 /* Pods-graphql-client-demoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		402110AD42151BC645C09F079F1C9250 /* Pods-graphql-client-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FF257B6D80501412C8049A6399FD45E /* Info.plist */,
+				80ED971B38FFEBB3D945B8EE773FF638 /* Pods-graphql-client-demoUITests.modulemap */,
+				49E61CD03591460450CE70D542CC1617 /* Pods-graphql-client-demoUITests-acknowledgements.markdown */,
+				6C220C4B8B79901D5C220F27C53E19DA /* Pods-graphql-client-demoUITests-acknowledgements.plist */,
+				67D5860F8AA7B207FE928B807EEF0298 /* Pods-graphql-client-demoUITests-dummy.m */,
+				8CE0904767524C85D2E83FD06577C1CC /* Pods-graphql-client-demoUITests-frameworks.sh */,
+				E45B459474B82F68AE18C97CB963F41B /* Pods-graphql-client-demoUITests-resources.sh */,
+				2D667D37BB00521480024B8C35666F1C /* Pods-graphql-client-demoUITests-umbrella.h */,
+				2194B21E84C62079E129DA2CE3E32A5F /* Pods-graphql-client-demoUITests.debug.xcconfig */,
+				668C2A3EEEEA952FBA17FB60C6D07BA6 /* Pods-graphql-client-demoUITests.release.xcconfig */,
+			);
+			name = "Pods-graphql-client-demoUITests";
+			path = "Target Support Files/Pods-graphql-client-demoUITests";
+			sourceTree = "<group>";
+		};
+		47BB6EB8782BB927F0AE0CCBA9357823 /* Pods-graphql-client-demo */ = {
+			isa = PBXGroup;
+			children = (
+				349E65D6CD7C59453348C261D6A9591F /* Info.plist */,
+				F26D3F2C484E086C309EE3FAAE47E903 /* Pods-graphql-client-demo.modulemap */,
+				F4E80EECB64DF544DB600311A9DBCE70 /* Pods-graphql-client-demo-acknowledgements.markdown */,
+				D4B8701527B5BCA41CD35A144C02DEB3 /* Pods-graphql-client-demo-acknowledgements.plist */,
+				98D2FD7B340A9FEF22A04ECF8EAC4060 /* Pods-graphql-client-demo-dummy.m */,
+				67CA0293EA7CB16E19465EB9A3AF7B34 /* Pods-graphql-client-demo-frameworks.sh */,
+				721E4EAE369EB0A1AFA40A52F43151B0 /* Pods-graphql-client-demo-resources.sh */,
+				B223DAC8CD86F7CC8C26DF96A21547F7 /* Pods-graphql-client-demo-umbrella.h */,
+				F2B5A160A1BE458DAF14F2ED61953931 /* Pods-graphql-client-demo.debug.xcconfig */,
+				391DEC02A3F746739DF1678C4D915C9A /* Pods-graphql-client-demo.release.xcconfig */,
+			);
+			name = "Pods-graphql-client-demo";
+			path = "Target Support Files/Pods-graphql-client-demo";
+			sourceTree = "<group>";
+		};
+		4AE7DD114F8F76B59D85CAF812C06A1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EBD5688551A504A237B746E21D4898D /* check-and-run-apollo-cli.sh */,
+				325BEEEECB9E017435A1F3DF15186427 /* check-and-run-apollo-codegen.sh */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D4E11FFE3C8B6BA9A363F062718ACD0 /* Pods-graphql-client-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E6BCC6CB2688296E8BEA088D3495FD1 /* Info.plist */,
+				CC22D16508698A078079A6AFFDB15279 /* Pods-graphql-client-demoTests.modulemap */,
+				2EFF1A2C4D1C7C59288C3855DBAD64DB /* Pods-graphql-client-demoTests-acknowledgements.markdown */,
+				F805C598739B09A3EE7E8615BB1F9F62 /* Pods-graphql-client-demoTests-acknowledgements.plist */,
+				FFB6B6F6B276DD94EC3E0257954C2C05 /* Pods-graphql-client-demoTests-dummy.m */,
+				AF15AAF18A0088C4BD1724E0F0A88CD4 /* Pods-graphql-client-demoTests-frameworks.sh */,
+				A9F08CB2B4BBF392659C4EBF1B6ED0C7 /* Pods-graphql-client-demoTests-resources.sh */,
+				5730CBDB2EAC8B8D7BBEB2C43109A525 /* Pods-graphql-client-demoTests-umbrella.h */,
+				5FD076CA4FD81CC6D99956580EFC3A77 /* Pods-graphql-client-demoTests.debug.xcconfig */,
+				0B77F2B71F9CC6842551471CAB204773 /* Pods-graphql-client-demoTests.release.xcconfig */,
+			);
+			name = "Pods-graphql-client-demoTests";
+			path = "Target Support Files/Pods-graphql-client-demoTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				108D44FE03747FFD1DFC87DDD369AD85 /* Pods */,
+				C3194063D60EF7EECA4E29361B4E4910 /* Products */,
+				3A333AA1F6EFA25F00F8F21708A914B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A872DCD658650CE5C7E5FE49F072B245 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A7CE3FDB2D45DEEC298B5BD26C2183 /* Apollo.modulemap */,
+				17D72A7271AF98AA8FA6E79DC8FF4A06 /* Apollo.xcconfig */,
+				683504D454D285866D01149DC27481AE /* Apollo-dummy.m */,
+				E257990ABE5C23201AE57C026F2F9F4B /* Apollo-prefix.pch */,
+				E3023B39355B23946FC876F60AE4C474 /* Apollo-umbrella.h */,
+				9438ED688A8E914C04DA0A9260C02029 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Apollo";
+			sourceTree = "<group>";
+		};
+		B92935CA31869E507DC12387C50F6E70 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3194063D60EF7EECA4E29361B4E4910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60B93252EA3BB0B9D43B1264CEB6B25 /* Apollo.framework */,
+				95EF5BB8D6386ACF9CA93B6C4595C402 /* Pods_graphql_client_demo.framework */,
+				8CC3D13505525D2318946BC250734FBF /* Pods_graphql_client_demoTests.framework */,
+				68EB6A7E6662EB4342D76735E9020DA0 /* Pods_graphql_client_demoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8230AD463F9B908844376F7249E2240 /* Apollo */ = {
+			isa = PBXGroup;
+			children = (
+				2F0BC7654996A1DD27A68F87CE797DA8 /* Core */,
+				A872DCD658650CE5C7E5FE49F072B245 /* Support Files */,
+			);
+			name = Apollo;
+			path = Apollo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A356C366B9BFA243C867FB7E02DBE25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7945E7D6CF59C48F68296A90A38BC7C /* Apollo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBCF2274FDD79D21700969AF01A7B17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F571AFEF2123EEE11895942AE6B65B /* Pods-graphql-client-demoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917F3FE2E7B90A6C4375A68319DA477E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B40625081F8719EC7A5B8FEC15AA748 /* Pods-graphql-client-demoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B63475729302CC08430E1CF2186ECB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4771719DE85A541A040C13EDA1EB7 /* Pods-graphql-client-demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CA4C37045222FB51D9AEFE1E452005F /* Pods-graphql-client-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152F39341DFB785E4F4F17019DE0A712 /* Build configuration list for PBXNativeTarget "Pods-graphql-client-demo" */;
+			buildPhases = (
+				B7B63475729302CC08430E1CF2186ECB /* Headers */,
+				97913403790444E7E377B7EAECFDBC18 /* Sources */,
+				A167CA0D7F3D26D549D85DBAC9D62449 /* Frameworks */,
+				BE913E0D3FAC910727A36F0DBD9BF9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E9DC6F85A360822A68113BBEFF9614 /* PBXTargetDependency */,
+			);
+			name = "Pods-graphql-client-demo";
+			productName = "Pods-graphql-client-demo";
+			productReference = 95EF5BB8D6386ACF9CA93B6C4595C402 /* Pods_graphql_client_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41ED7415C12D336C52DF8389D7225DA6 /* Pods-graphql-client-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FC54DA84C4DE70F3CFB6FA8CAD1CE3 /* Build configuration list for PBXNativeTarget "Pods-graphql-client-demoTests" */;
+			buildPhases = (
+				917F3FE2E7B90A6C4375A68319DA477E /* Headers */,
+				B9941E49A066D5272CA7ABCC7B42736E /* Sources */,
+				362C0114306C73D1452FED6C0BBE6806 /* Frameworks */,
+				477BBF1A590E2AD3BC4D7B38B0019BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D123D2E86964479CC787714C94CBD955 /* PBXTargetDependency */,
+			);
+			name = "Pods-graphql-client-demoTests";
+			productName = "Pods-graphql-client-demoTests";
+			productReference = 8CC3D13505525D2318946BC250734FBF /* Pods_graphql_client_demoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75DFC7B7A0E0F5FCEF1D11EAB25E2323 /* Apollo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8536FBD41BA7CE0447A6770A39088B /* Build configuration list for PBXNativeTarget "Apollo" */;
+			buildPhases = (
+				6A356C366B9BFA243C867FB7E02DBE25 /* Headers */,
+				D9C28694235BEF8FBE6024A1EF932346 /* Sources */,
+				4BB2520A646C71906E698E78713DE72F /* Frameworks */,
+				AF0E94D130663DDB5D7B762891C812D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apollo;
+			productName = Apollo;
+			productReference = B60B93252EA3BB0B9D43B1264CEB6B25 /* Apollo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84E6B7AAB4BFF22642D3F14EE5E55C4E /* Pods-graphql-client-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B8890167418DBB2E29FC95B0455752 /* Build configuration list for PBXNativeTarget "Pods-graphql-client-demoUITests" */;
+			buildPhases = (
+				7BBCF2274FDD79D21700969AF01A7B17 /* Headers */,
+				D4F1D2AB69DC631040E733332C23E28B /* Sources */,
+				D2EED8811F897F1C5F2D324E3ED06CCE /* Frameworks */,
+				806A868C43840E796233F8CB6698C23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A75DDDF5520D5128765F11935ADF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-graphql-client-demoUITests";
+			productName = "Pods-graphql-client-demoUITests";
+			productReference = 68EB6A7E6662EB4342D76735E9020DA0 /* Pods_graphql_client_demoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C3194063D60EF7EECA4E29361B4E4910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DFC7B7A0E0F5FCEF1D11EAB25E2323 /* Apollo */,
+				2CA4C37045222FB51D9AEFE1E452005F /* Pods-graphql-client-demo */,
+				41ED7415C12D336C52DF8389D7225DA6 /* Pods-graphql-client-demoTests */,
+				84E6B7AAB4BFF22642D3F14EE5E55C4E /* Pods-graphql-client-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		477BBF1A590E2AD3BC4D7B38B0019BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806A868C43840E796233F8CB6698C23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0E94D130663DDB5D7B762891C812D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6A8DA2837AD31BE1722182B243A164 /* check-and-run-apollo-cli.sh in Resources */,
+				647CE2B9260E1FCC521B2F7A40E63606 /* check-and-run-apollo-codegen.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE913E0D3FAC910727A36F0DBD9BF9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97913403790444E7E377B7EAECFDBC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09AC7AC05DEC3A5CB304000C6CEB005 /* Pods-graphql-client-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9941E49A066D5272CA7ABCC7B42736E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FA4F9DEAADE8D889E4499A26B8308B /* Pods-graphql-client-demoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F1D2AB69DC631040E733332C23E28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2861560435F442CB523020A6AD63922 /* Pods-graphql-client-demoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C28694235BEF8FBE6024A1EF932346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2015497EAB96615527E13752D95CB57C /* Apollo-dummy.m in Sources */,
+				6C47C898CB335BC1892F76DE81F0C714 /* ApolloClient.swift in Sources */,
+				99C6F1A3C2C396A6DA3793B520BEDD2E /* ApolloStore.swift in Sources */,
+				7F98AE7AC8C2C580BE10AE6381A99FF0 /* AsynchronousOperation.swift in Sources */,
+				0DCE228D66ECA279212465E7511E9431 /* Collections.swift in Sources */,
+				5518314ACDE877C5B4279297A6DB87DC /* DataLoader.swift in Sources */,
+				7087DEAAF16C46C156762A5E7B4E990E /* GraphQLDependencyTracker.swift in Sources */,
+				76F169CDD7C5048CF901C6894091FD83 /* GraphQLError.swift in Sources */,
+				57CE96F18127DECE004EE0E540C9564C /* GraphQLExecutor.swift in Sources */,
+				BABAE4DFC8CF4724086B7315BCDF2D7D /* GraphQLInputValue.swift in Sources */,
+				CA78F0A1BE2CB88B2E1AF10A5D8526D9 /* GraphQLOperation.swift in Sources */,
+				BD7737D70EE16A0169251F84B6C7F491 /* GraphQLQueryWatcher.swift in Sources */,
+				6E20F6C0E19A17F4201104D4B1DF20FA /* GraphQLResponse.swift in Sources */,
+				AF46CB36B27EABF6E8B6480799F20346 /* GraphQLResponseGenerator.swift in Sources */,
+				83945EFF960DD7F3F4C175C12B5D087F /* GraphQLResult.swift in Sources */,
+				ACC87673AEECFDBBADE4D074D178E68B /* GraphQLResultAccumulator.swift in Sources */,
+				D79B88FA15AC9F21295E67E3AEB5BC3B /* GraphQLResultNormalizer.swift in Sources */,
+				20263783BC313615A55C4C70B42C90D8 /* GraphQLSelectionSet.swift in Sources */,
+				17AA985FDEE1C5CA7FDFD531A0750E2B /* GraphQLSelectionSetMapper.swift in Sources */,
+				1B2AC3FEBB2421EF31C30FD48CF5AF9D /* HTTPNetworkTransport.swift in Sources */,
+				5942A9A2695D26A2AE44031D089D7AC0 /* InMemoryNormalizedCache.swift in Sources */,
+				B7380A90C01A9BC18A2BF90F39EE0457 /* JSON.swift in Sources */,
+				1B4BA5EB745DAE064A4ED02B91B69A02 /* JSONSerializationFormat.swift in Sources */,
+				E94BB0B983D1064A50720A9B817D2689 /* JSONStandardTypeConversions.swift in Sources */,
+				842B7BA4DDBC42ACAF98873DDFA89704 /* Locking.swift in Sources */,
+				102A91FAAADC6F29DA40FC6C99E59693 /* NetworkTransport.swift in Sources */,
+				8789F54BEDB989D49F5933BA8FBAF1ED /* NormalizedCache.swift in Sources */,
+				AC66F689BBA684C0929D9D02079E53A4 /* Promise.swift in Sources */,
+				30F691F253927A030206F80149F23525 /* Record.swift in Sources */,
+				F34D8D98C4B26D6F32461871F7A85D52 /* RecordSet.swift in Sources */,
+				D564C7401DD18D31DE6D66035CEC2260 /* Result.swift in Sources */,
+				FEE654610692510CDCB9925E695B864E /* ResultOrPromise.swift in Sources */,
+				FC7E998F35F8896283904A0E5E18553C /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E2A75DDDF5520D5128765F11935ADF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-graphql-client-demo";
+			target = 2CA4C37045222FB51D9AEFE1E452005F /* Pods-graphql-client-demo */;
+			targetProxy = 0BF073ACD4916C6E71D2A378D296303B /* PBXContainerItemProxy */;
+		};
+		C1E9DC6F85A360822A68113BBEFF9614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Apollo;
+			target = 75DFC7B7A0E0F5FCEF1D11EAB25E2323 /* Apollo */;
+			targetProxy = C35FF1D6B82C82870C5E4AB2FFF6C555 /* PBXContainerItemProxy */;
+		};
+		D123D2E86964479CC787714C94CBD955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-graphql-client-demo";
+			target = 2CA4C37045222FB51D9AEFE1E452005F /* Pods-graphql-client-demo */;
+			targetProxy = BDA78516F274093C0A8CB34F8F2AF4D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00175C740E1B938A83C315FE6A46906F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668C2A3EEEEA952FBA17FB60C6D07BA6 /* Pods-graphql-client-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-graphql-client-demoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-graphql-client-demoUITests/Pods-graphql-client-demoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F573FD29FCCEF2EF09BAD0F8C45CC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D72A7271AF98AA8FA6E79DC8FF4A06 /* Apollo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Apollo/Apollo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apollo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Apollo/Apollo.modulemap";
+				PRODUCT_MODULE_NAME = Apollo;
+				PRODUCT_NAME = Apollo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23EAC5CED6BAA6423C8005ED0A900261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2194B21E84C62079E129DA2CE3E32A5F /* Pods-graphql-client-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-graphql-client-demoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-graphql-client-demoUITests/Pods-graphql-client-demoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47FADC3EAC169745DFC54BF1B8F80153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B77F2B71F9CC6842551471CAB204773 /* Pods-graphql-client-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-graphql-client-demoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-graphql-client-demoTests/Pods-graphql-client-demoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5457FE87318E7CA8D4ECAD42BA1E672C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B5A160A1BE458DAF14F2ED61953931 /* Pods-graphql-client-demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-graphql-client-demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-graphql-client-demo/Pods-graphql-client-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55E1F41EC6141EA62E0890FF3A236C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D72A7271AF98AA8FA6E79DC8FF4A06 /* Apollo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Apollo/Apollo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apollo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Apollo/Apollo.modulemap";
+				PRODUCT_MODULE_NAME = Apollo;
+				PRODUCT_NAME = Apollo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BE700ACE8AA35AFDAA71A2B3D13FE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD076CA4FD81CC6D99956580EFC3A77 /* Pods-graphql-client-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-graphql-client-demoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-graphql-client-demoTests/Pods-graphql-client-demoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C85981ED5580AEA5B01B3F5E09C7C77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391DEC02A3F746739DF1678C4D915C9A /* Pods-graphql-client-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-graphql-client-demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-graphql-client-demo/Pods-graphql-client-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152F39341DFB785E4F4F17019DE0A712 /* Build configuration list for PBXNativeTarget "Pods-graphql-client-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5457FE87318E7CA8D4ECAD42BA1E672C /* Debug */,
+				C85981ED5580AEA5B01B3F5E09C7C77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8536FBD41BA7CE0447A6770A39088B /* Build configuration list for PBXNativeTarget "Apollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E1F41EC6141EA62E0890FF3A236C6C /* Debug */,
+				1F573FD29FCCEF2EF09BAD0F8C45CC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FC54DA84C4DE70F3CFB6FA8CAD1CE3 /* Build configuration list for PBXNativeTarget "Pods-graphql-client-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE700ACE8AA35AFDAA71A2B3D13FE33 /* Debug */,
+				47FADC3EAC169745DFC54BF1B8F80153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B8890167418DBB2E29FC95B0455752 /* Build configuration list for PBXNativeTarget "Pods-graphql-client-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EAC5CED6BAA6423C8005ED0A900261 /* Debug */,
+				00175C740E1B938A83C315FE6A46906F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
